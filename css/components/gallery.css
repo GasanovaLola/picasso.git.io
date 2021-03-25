@@ -1,0 +1,162 @@
+.image-block { 
+    display:block;
+    position: relative;
+}
+.portfolio-categ {
+    list-style-type: none;
+    color: #ccc;
+    margin: 85px 0px;
+}
+.home-portfolio-text {
+    margin-top:10px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc
+}
+.g-c:hover {
+    border: 1px solid #3b4b60;
+}
+.g-c {
+    border: 1px solid #ccc;
+    padding: 30px;
+}
+
+.portfolio-categ li a {
+    color: #3b4b60;
+    border-bottom: 2px solid #ffffff;
+}
+.portfolio-categ li a:hover {
+    border-bottom: 2px solid #3b4b60;
+}
+
+
+
+
+
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    color: #58595a;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #85878c;
+}
+
+/* Styles for the gallery */
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.tz-gallery img {
+    border-radius: 2px;
+}
+
+.tz-gallery .caption {
+    padding: 26px 30px;
+    text-align: center;
+}
+
+.tz-gallery .caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.tz-gallery .caption p {
+    font-size: 12px;
+    color: #7b7d7d;
+    margin-top: 16px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+
+.slider {
+    z-index: 9;
+    /*width: 100%;*/
+    height: 256px;
+    overflow: hidden;
+    margin: 0 0 7px;
+    position: relative;
+    margin: 50px 0;
+    }
+    .slider ul,
+    .slider li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    }
+    .slider ul {
+    width: 9999px; 
+    }
+    .slider ul li {
+    list-style-type: none;
+    float: left;
+    width: 510px;
+    height: 256px;
+    }
+    .slider .nav {
+    position: absolute;
+    left: 15px;
+    bottom: 12px; 
+    display: none;
+
+    }
+    .slider .nav span {
+    opacity: 0.9;
+    background: #fff;
+    margin: 0 8px 0 0;
+    width: 10px;
+   height: 10px;
+   border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+    float: left;
+    box-shadow: 0 1px 2px #000;
+    }
+    .slider .nav span.on {
+    background: #a77b3f;
+    }
+
+
+@media (min-width: 346px) and (max-width: 693px) {
+    .slider ul li {
+        list-style-type: none;
+        float: left;
+        width: 693px;
+        height: 256px;
+    }
+}
+@media (min-width: 693px) and (max-width: 1040px) {
+    .slider ul li {
+        list-style-type: none;
+        float: left;
+        width: 510px;
+        height: 256px;
+    }
+}
+@media (min-width: 1040px) and (max-width: 5000px) {
+    .slider ul li {
+        list-style-type: none;
+        float: left;
+        width: 510px;
+        height: 256px;
+    }
+}

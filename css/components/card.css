@@ -1,0 +1,87 @@
+.card {
+    margin: 20px 0;
+}
+.card-img {
+
+}
+.card-text {
+    font-size: 14px;
+    padding-left: 10px;
+}
+.card-pod {
+    font-size: 14px;
+    text-align: right;
+}
+.card-pod a {
+    text-decoration: none;
+    color: rgba(139, 138, 138, 0.829);
+    border-bottom: 1px solis #fff;
+}
+
+.card-pod a:hover {
+    border-bottom: 1px solid rgba(139, 138, 138, 0.829);
+}
+
+/*---------------------------------------------------------------*/
+.sticky {
+    /*display: block;*/
+}
+@media (max-width: 693px) {
+    .sticky {
+        display: none !important;
+    }
+}
+
+
+
+
+/* ----------------------------------------------- */
+
+.title-block {
+    text-align: center;
+    font-size: 33px;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.sub-title-block {
+    font-size: 22px;
+    text-align: center;
+    margin: 22px 0;
+    color: #666666
+}
+.img-block {
+    margin: 60px 0;
+}
+
+
+.card-news {
+    /*border: 1px solid #ccc;*/
+}
+.title-card-news {
+    text-align: center;
+    font-size: 19px;
+    color: #2f2e2eeb;
+}
+
+
+@media (min-width: 1040px) and (max-width: 5000px) {
+    .block {
+        margin: 90px 0;
+    }
+}
+@media (min-width: 693px) and (max-width: 1040px) {
+    .block {
+        margin: 60px 0;
+    }
+}
+@media (min-width: 346px) and (max-width: 693px) {
+    .block {
+        margin: 30px 0;
+    }
+}
+@media (max-width: 346px) {
+    .block {
+        margin: 0;
+    }
+}

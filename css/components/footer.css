@@ -1,0 +1,92 @@
+.ul-footer {
+    list-style-type: none;
+}
+.item-footer {
+    text-decoration: none;
+    letter-spacing: 2px;    
+    line-height: 38px;
+    color: #c6cdda;
+}
+.item-footer li span {
+    border-bottom: 2px solid #3b4b60;
+}
+.item-footer li span:hover {
+    border-bottom: 2px solid #c6cdda;
+}
+
+@media (min-width: 1040px) and (max-width: 5000px) {
+    .footer {
+        background-color: #3b4b60;
+        margin-top: 90px;
+        padding: 90px 0;
+    }
+    .tb {
+        margin: 50px 0;
+        font-weight: 500;
+        text-align: center;
+    }
+    .td {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .dl {
+        height: 500px;
+    }
+}
+@media (min-width: 693px) and (max-width: 1040px) {
+    .footer {
+        background-color: #3b4b60;
+        margin-top: 60px;
+        padding: 60px 0;
+    }
+    .tb {
+        margin: 30px 0;
+        font-weight: 500;
+        text-align: center;
+    }
+    .td {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .dl {
+        height: 350px;
+    }
+}
+@media (min-width: 346px) and (max-width: 693px) {
+    .footer {
+        background-color: #3b4b60;
+        margin-top: 40px;
+        padding: 40px 0;
+    }
+    .tb {
+        margin: 20px 0;
+        font-weight: 500;
+        text-align: center;
+    }
+    .td {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .dl {
+        height: 300px;
+    }
+}
+@media (max-width: 346px) {
+    .footer {
+        background-color: #3b4b60;
+        margin-top: 25px;
+        padding: 25px 0;
+    }
+    .tb {
+        margin: 10px 0;
+        font-weight: 500;
+        text-align: center;
+    }
+    .td {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .dl {
+        height: 200px;
+    }
+}

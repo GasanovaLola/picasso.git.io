@@ -1,0 +1,99 @@
+
+.text-content {
+    margin: 25px 0;
+    color: #585757;
+    letter-spacing: 0.5px;
+    width: 175px;
+    margin-right: 30px;
+}
+
+/* ----------------------- content ---------------------- */
+
+.card-content {
+    padding: 25px 35px;
+    background-color: #3b4b60;
+    list-style-type: none;
+}
+.title-hiro {
+    padding: 30px ​0px;
+    margin: 30px 0px;
+}
+.title-content {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.li-content-item {
+    line-height: 38px;
+    color: #c6cdda;
+}
+
+.text-h {
+    text-align: left;
+}
+
+.left {
+    justify-content: left;
+    align-items: center;
+}
+
+/* ------------------------- main -------------------------*/
+
+.main-title {
+    margin: ​0px;
+    margin: 35px 0;
+    letter-spacing: 0.5px;
+}
+
+.main-p {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+@media (max-width: 1040px) {
+    .card-content {
+        margin: 0px -17px;
+    }
+}
+
+
+@media (min-width: 1040px) and (max-width: 5000px) {
+    .hiro {
+        margin: 90px 0;
+    }
+    .title-main {
+        text-align: center;
+        margin: 55px 0px;
+        letter-spacing: 0.5px;
+    }
+}
+@media (min-width: 693px) and (max-width: 1040px) {
+    .hiro {
+        margin: 50px 0;
+    }
+    .title-main {
+        text-align: center;
+        margin: 50px 0px;
+        letter-spacing: 0.5px;
+    }
+}
+@media (min-width: 346px) and (max-width: 693px) {
+    .hiro {
+        margin: 20px 0;
+    }
+    .title-main {
+        text-align: center;
+        margin: 40px 0px;
+        letter-spacing: 0.5px;
+    }
+}
+@media (max-width: 346px) {
+    .hiro {
+        margin: 0;
+    }
+    .title-main {
+        text-align: center;
+        margin: 30px 0px;
+        letter-spacing: 0.5px;
+    }
+}
